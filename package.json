@@ -13,7 +13,7 @@
   "author": "Meeshkan",
   "license": "MIT",
   "dependencies": {
-    "unmock": "^0.3.13",
+    "unmock": "^0.3.14",
     "unmock-runner": "^0.3.13"
   },
   "devDependencies": {
