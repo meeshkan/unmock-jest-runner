@@ -8,7 +8,7 @@
     "lint": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
     "test": "jest"
   },
-  "author": "Carolyn Stransky",
+  "author": "Meeshkan",
   "license": "MIT",
   "dependencies": {
     "unmock": "^0.3.13",
