@@ -1,0 +1,27 @@
+{
+  "name": "unmock-jest-runner",
+  "version": "0.0.0",
+  "description": "Jest configuration for the unmock-js runner.",
+  "main": "dist/index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
+    "test": "jest",
+    "prepublish": "yarn compile && yarn format && yarn test",
+    "compile": "tsc"
+  },
+  "author": "Meeshkan",
+  "license": "MIT",
+  "dependencies": {
+    "unmock": "^0.3.14",
+    "unmock-runner": "^0.3.14"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "node-fetch": "^2.6.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}
