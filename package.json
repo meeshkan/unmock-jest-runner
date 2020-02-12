@@ -6,7 +6,9 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn compile && yarn format && yarn test",
+    "compile": "tsc"
   },
   "author": "Meeshkan",
   "license": "MIT",
