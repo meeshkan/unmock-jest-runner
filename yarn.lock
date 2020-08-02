@@ -461,11 +461,6 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/debug@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
-  integrity sha512-Q1y515GcOdTHgagaVFhHnIFQ38ygs/kmxdNpvpou+raI9UO3YZcHDngBSYKQklcKlvA7iuQlmIKbzvmxcOE9CQ==
-
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -526,11 +521,6 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/url-parse@^1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@types/url-parse/-/url-parse-1.4.3.tgz#fba49d90f834951cb000a674efee3d6f20968329"
-  integrity sha512-4kHAkbV/OfW2kb5BLVUuUMoumB3CP8rHqlw48aHvFy5tf9ER0AfOonBlX29l/DD68G70DmyhRlSYfQPSYpC5Vw==
-
 "@types/whatwg-url@^6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@types/whatwg-url/-/whatwg-url-6.4.0.tgz#1e59b8c64bc0dbdf66d037cf8449d1c3d5270237"
@@ -576,9 +566,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^6.0.1:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
-  integrity sha512-gac8OEcQ2Li1dxIEWGZzsp2BitJxwkwcOm0zHAJLcPJaVvm58FRnk6RkuLRpU1EujipU2ZFODv2P9DLMfnV8mw==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
@@ -4374,32 +4364,33 @@ union-value@^1.0.0:
     is-extendable "^0.1.1"
     set-value "^2.0.1"
 
-unmock-browser@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-browser/-/unmock-browser-0.3.13.tgz#b76278e0afe1074a7650e51fe9c262bf64055460"
-  integrity sha512-paSfF/LNuFyvD3Ek6ZNJbq5HSLpKP9OcBv29w+iIa0ZOmVpNrAjcTVY9a3TeZczZqp8pC8N7JM03iDIgRK70EA==
+unmock-browser@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-browser/-/unmock-browser-0.3.16.tgz#36bee676c4b01d6b79e74f7cc4b6b95cd1323673"
+  integrity sha512-p7T772+6dncBTuTA4wcHyLCXs/I8yW3OxZyWRFLOvKywA4FRDuZOez5PFeIjC0ajOkkfHgJiM+G3yN0zSaqocg==
   dependencies:
     buffer "^5.4.3"
-    unmock-core "^0.3.13"
-    unmock-fetch "^0.3.13"
+    unmock-core "^0.3.16"
+    unmock-fetch "^0.3.16"
+    unmock-xmlhttprequest "^0.3.16"
 
-unmock-cli@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-cli/-/unmock-cli-0.3.13.tgz#6c129e2588b566c3940f84212b38ff5a54079384"
-  integrity sha512-wF+R/EgvKppwT6WEPS1AtNaqm3uS+lvQhqdzhby/0yUckkocuaXvDKxSGtPu8qEhqYs8b6EpEpxqYv3CbQ7SFw==
+unmock-cli@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-cli/-/unmock-cli-0.3.16.tgz#c588e249c6f840954472f74f684825d94ac5bbba"
+  integrity sha512-5RX2G52qdovqu49ho1+fypm028hKjbSx5exbPLSc6+AmCmuc8pjQ2VAQf4XHnBLWNfUsSka5ZR2GCMhrm/2fxw==
   dependencies:
     "@types/readline-sync" "^1.4.3"
     chalk "^2.4.2"
     commander "^2.20.0"
     glob "^7.1.3"
     readline-sync "^1.4.10"
-    unmock-core "^0.3.13"
-    unmock-node "^0.3.13"
+    unmock-core "^0.3.16"
+    unmock-node "^0.3.16"
 
-unmock-core@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-core/-/unmock-core-0.3.13.tgz#497ab28460d3db660ee92f0a167c7cc7c17a2206"
-  integrity sha512-0YVSyA6Rv30fZooKpgDtySO3uisjQiFgmxcJ01CXGNIXzPReo5bvlqxp0Q8EiYGUWJHJM8NS4dnWqSXLywDg4g==
+unmock-core@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-core/-/unmock-core-0.3.16.tgz#952772b16dc337cc1160b2bc4ffd3f0d221a0488"
+  integrity sha512-TgcXDqSiINgeP7h2YjAq49G5MRbJcYREGZeY5/HOjp6aiZSuY+t/JBvnh7ECbC0yFztDCQxTr/dqmOMjzBq4FQ==
   dependencies:
     "@meeshkanml/json-schema-faker" "^0.0.2"
     "@meeshkanml/jsonschema" "^0.0.1"
@@ -4430,22 +4421,20 @@ unmock-core@^0.3.13:
     whatwg-url "^7.0.0"
     winston "^3.2.1"
 
-unmock-fetch@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-fetch/-/unmock-fetch-0.3.13.tgz#dd20e8b41c8f63aa60fae8d323c111e3dcf2e7e7"
-  integrity sha512-jxTKkwKz44VmxG/ORk9QkMc5/kbJSl6pH+0scvW6L0RNRpbTlOjjoeLYWoj06bNoPjJjncOYbS85uJm777AwsA==
+unmock-fetch@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-fetch/-/unmock-fetch-0.3.16.tgz#fe452e8176be65cc2fcecefb1e995b8373272f46"
+  integrity sha512-QlSY2D82bS1TwoexGq5qJK3ptlR1UnirtghYovAYZZl0Rytkbn1diDxuL52B9hZSAmafBRdl+MRC1KIVb0gC0g==
   dependencies:
-    "@types/debug" "^4.1.5"
-    "@types/url-parse" "^1.4.3"
     cross-fetch "^3.0.4"
     debug "^4.1.1"
-    unmock-core "^0.3.13"
+    unmock-core "^0.3.16"
     url-parse "^1.4.7"
 
-unmock-node@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-node/-/unmock-node-0.3.13.tgz#d459b0352cbfd9aabd3d9cfab7500dd543e49e1f"
-  integrity sha512-BPbzE0ZviinxxPAjOFCsiSmHGFDwr/Rr3/1ESfoOAATdhxHdCah0aw77FOa1R9bs9cUcrW6tQfHz6KUH6Kmfow==
+unmock-node@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-node/-/unmock-node-0.3.16.tgz#ecf8a5c324d42e13f24fbb61ecd75f35e81c7ec1"
+  integrity sha512-In04MhBuBnq5dPH3ePk37YhkW7ClOtbRCAxuyanDG2/odX7mc/cPRWuXR1sOZNw5oCLfOEqDNH67/M2floXN5Q==
   dependencies:
     "@types/node" "^12.7.8"
     "@types/node-fetch" "^2.5.2"
@@ -4458,26 +4447,35 @@ unmock-node@^0.3.13:
     node-fetch "^2.6.0"
     readable-stream "^3.4.0"
     shimmer "^1.2.1"
-    unmock-core "^0.3.13"
+    unmock-core "^0.3.16"
     uuid "^3.3.2"
     winston "^3.2.1"
 
-unmock-runner@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock-runner/-/unmock-runner-0.3.13.tgz#85c6d57d49644924c32115d73cb5e023be9a3783"
-  integrity sha512-Lxh3+WVKO4T/EA82mbZv3JyWzcXGkTYYmMpGko3qNup30e+5tUb2T57s+b8D64gQNXEVEGfOItZAtVC4YyFbtQ==
+unmock-runner@^0.3.14:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-runner/-/unmock-runner-0.3.16.tgz#8625d0b791ebd35c1613b414e5aa03b0974e213b"
+  integrity sha512-+ueQw8U5T8q3eK+/HiNSKoeqUdywUvkNjr7sdGagp03SBd1vjrpxmSLEElESOutMt7U9qRUsjZql8E2vPorzEw==
   dependencies:
-    unmock-core "^0.3.13"
+    unmock-core "^0.3.16"
 
-unmock@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/unmock/-/unmock-0.3.13.tgz#bea32892987e061d3a5ae9d9857a78889420197e"
-  integrity sha512-tomSTpremB/Vp683hpGS+7falhzregQQyIrbS5BtPl0aBsSGJAk4GiPPvIKk6PVoo5i7LheQkwh0SFYF0rVD0Q==
+unmock-xmlhttprequest@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock-xmlhttprequest/-/unmock-xmlhttprequest-0.3.16.tgz#a0833a0232c02e8ce158b1e5affd350804f3835d"
+  integrity sha512-oRNaa0UBOhCfS6TXKEfdWx7/KJ5wWOUwYhL+RWHalGMIIURCfj8eQmFyEHtnwdsnOFnXun+kAfNlZZhqJbdR7A==
   dependencies:
-    unmock-browser "^0.3.13"
-    unmock-cli "^0.3.13"
-    unmock-core "^0.3.13"
-    unmock-node "^0.3.13"
+    debug "^4.1.1"
+    unmock-core "^0.3.16"
+    url-parse "^1.4.7"
+
+unmock@^0.3.14:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/unmock/-/unmock-0.3.16.tgz#16e203400ddec0f44484a384b5bf9ec35ed84115"
+  integrity sha512-Nsn8IV6YPIP0EFFwfVpNEwP1pY3RSw/0/8IMYYjWcGJ/M0yFjoBWjwzoO6Srj++EUCqb8wOU3BZ01ao+/lcftw==
+  dependencies:
+    unmock-browser "^0.3.16"
+    unmock-cli "^0.3.16"
+    unmock-core "^0.3.16"
+    unmock-node "^0.3.16"
 
 unset-value@^1.0.0:
   version "1.0.0"
